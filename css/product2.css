@@ -1,0 +1,67 @@
+/*最后一张图片*/
+.img-right  .up a,
+.img-right .down a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.img-right  .up a{
+    height: 40px;
+    background-color: white;
+    border: 1px solid #999;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    line-height: 40px;
+    width: 480px;
+}
+.img-right .down a{
+    margin-top: 10px;
+    width: 482px;
+    font-size: 13px;
+    background-color: #fb8585;
+    color: white;
+    height: 25px;
+    line-height: 25px;
+}
+/*数字按钮*/
+.page{
+    position: relative;
+    width: 70px;
+    margin: 80px auto;
+}
+.page a{
+    text-decoration: none;
+    color:#333;
+
+}
+.page .page-trans a:nth-of-type(1){
+    font-weight: 300;
+    font-size: 20px;
+}
+.page .page-trans #prev{
+    font-weight: 400;
+    font-size: 17px;
+}
+.page-trans{
+    position: absolute;
+    left: -400px;
+    top: 0;
+}
+.one,.two{
+    height: 45px;
+    width: 30px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #999;
+}
+.one{
+    background-color: white;
+}
+.two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eae8dc;
+}

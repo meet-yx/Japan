@@ -1,0 +1,29 @@
+/*底部*/
+footer .footer-menu ul{
+    width: 80%;
+    list-style: none;
+    margin-top: 60px;
+    font-size: 13px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #bbb;
+    margin-left: 150px;
+}
+footer .footer-menu ul li{
+    float: left;
+    padding-left: 85px;
+}
+footer .footer-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer .banQuan{
+    text-align: center;
+    width: 100%;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}

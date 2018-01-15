@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "宋体";
+}
+@font-face {
+    font-family: myfont;
+    src: url("../font/iconfont.woff");
+}
+/*主体*/
+form{
+    position: relative;
+    bottom: 580px;
+    margin: 0 auto;
+    width: 920px;
+    height: auto;
+    font-size: 13px;
+    line-height: 25px;
+    color: #555;
+}
+/*label标签*/
+form label{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+}
+/*文本框*/
+form input[type="text"],
+form input[type="email"]{
+    width: 240px;
+    height: 35px;
+}
+form .name{
+    width: auto;
+    height: 60px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 60px;
+    margin: 20px 0;
+    /*border: 1px solid red;*/
+}
+form .remark{
+    width: auto;
+    height: 340px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 340px;
+    padding-top: 12px;
+}
+form textarea{
+    width: 680px;
+    height: 320px;
+}
+form button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.content{
+    margin-top: 50px;
+}
+.content .wenzi{
+    position: absolute;
+    left: 46%;
+}
+.content .wenzi h2{
+    font-weight: 300;
+}
+.content .wenzi hr {
+    position: absolute;
+    left: 25%;
+    top:130%;
+    width: 30px;
+    border: 1px solid black;
+}
+footer{
+    margin-top: -500px;
+}

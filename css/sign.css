@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "宋体";
+}
+@font-face {
+    font-family: myfont;
+    src: url("../font/iconfont.woff");
+}
+/*section部分*/
+.content{
+    position: relative;
+    width: 925px;
+    height: 610px;
+    padding-top: 50px;
+    margin: 0 auto ;
+    text-align: left;
+}
+.content .wenzi{
+    position: absolute;
+    left: 46%;
+}
+.content .wenzi hr {
+    position: absolute;
+    left: 33%;
+    top:130%;
+    width: 30px;
+    border: 1px solid black;
+}
+.content h4{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 15px;
+}
+.content .box{
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-top: 20px;
+    height: 465px;
+    line-height: 30px;
+    width: 925px;
+    overflow-Y: scroll;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
